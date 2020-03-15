@@ -7,7 +7,7 @@ class InteractiveRecord
   end
 
   def self.column_names
-
+    self.class.column_names
     # receives a Student return [id, name, grade]
   end
 end
