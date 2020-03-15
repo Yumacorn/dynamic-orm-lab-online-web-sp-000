@@ -11,6 +11,7 @@ class Student < InteractiveRecord
   end
 
   def self.column_names
+    binding.pry
     self.
   end
 end
