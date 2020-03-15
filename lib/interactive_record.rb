@@ -3,6 +3,11 @@ require 'active_support/inflector'
 
 class InteractiveRecord
   def self.table_name
-    # self.to_s.downcase.pluralize
+    self.to_s.downcase.pluralize
+  end
+
+  def self.column_names
+
+    # receives a Student return [id, name, grade]
   end
 end
