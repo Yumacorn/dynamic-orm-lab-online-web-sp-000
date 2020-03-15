@@ -12,7 +12,7 @@ class Student < InteractiveRecord
   end
 
   def self.column_names
-    
+
     # receives a Student return [id, name, grade]
   end
 end
